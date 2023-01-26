@@ -1,0 +1,21 @@
+/*font-family: 'Mochiy Pop One', sans-serif;
+font-family: 'Playfair Display', serif;*/
+
+:root {
+  --primary-color: #8c2828;
+  --secondary-color: #51504e;
+  --tertiary-color: #201f1d;
+  --supplementary-color: #9a9792;
+  --heading-font-family: "Mochiy Pop One", sans-serif;
+  --paragraph-font-family: "Playfair Display", serif;
+}
+
+h1 {
+  text-align: center;
+  font-family: var(--heading-font-family);
+}
+
+p {
+  text-align: center;
+  font-family: var(--paragraph-font-family);
+}
