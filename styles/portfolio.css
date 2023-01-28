@@ -22,16 +22,72 @@ h1 {
   font-family: var(--heading-font-family);
 }
 
+button a {
+  text-decoration: none;
+}
+
 p {
   text-align: center;
   font-family: var(--paragraph-font-family);
 }
 
+.heading {
+  font-family: var(--heading-font-family);
+}
+
+.paragraph {
+  font-family: var(--paragraph-font-family);
+}
+
 .wrap {
-  padding-top: 100px;
+  padding-top: 120px;
 }
 
 .holder {
-  background-image: url("/Portfolio images/matt-gross-9aCkSl6YcXg-unsplash.jpg");
-  /* background-color: var(--tertiary-color);*/
+  background-color: var(--secondary-color);
+}
+
+.about-holder {
+  background-color: var(--primary-color);
+}
+.about-text {
+  color: #201f1d;
+}
+.about-grid-a {
+  background-color: var(--primary-color);
+}
+
+.about-grid-a .heading {
+  color: var(--supplementary-color);
+  font-size: 32px;
+}
+
+.about-grid-c {
+  background-color: none;
+}
+.about-grid-c .paragraph {
+  font-size: 20px;
+  color: var(--supplementary-color);
+}
+.home-img {
+  border-radius: 100px;
+}
+
+.footer {
+  background-color: var(--supplementary-color);
+  color: white;
+}
+
+.services-grid {
+  background-color: var(--tertiary-color);
+}
+
+.skills-grid {
+  background-color: var(--secondary-color);
+  padding-top: 60px;
+}
+
+.services-holder {
+  background-color: var(--tertiary-color);
+  padding-top: 60px;
 }
