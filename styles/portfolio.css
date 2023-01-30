@@ -22,6 +22,10 @@ h1 {
   font-family: var(--heading-font-family);
 }
 
+a {
+  font-family: var(--paragraph-font-family);
+}
+
 button a {
   text-decoration: none;
 }
@@ -40,9 +44,25 @@ p {
 }
 
 .wrap {
-  padding-top: 120px;
+  padding-top: 160px;
+  padding-bottom: 40px;
 }
 
+.about-wrap {
+  padding-top: 50px;
+  padding-bottom: 40px;
+}
+
+.about-wrap-b {
+  padding-top: 80px;
+  padding-bottom: 20px;
+}
+
+.services-wrap {
+  padding-top: 50px;
+  padding-bottom: 40px;
+  margin-left: 100px;
+}
 .holder {
   background-color: var(--secondary-color);
 }
@@ -90,4 +110,13 @@ p {
 .services-holder {
   background-color: var(--tertiary-color);
   padding-top: 60px;
+}
+
+.portfolio-holder {
+  background-color: var(--supplementary-color);
+  padding-top: 100px;
+}
+
+.media-link a {
+  text-decoration: none;
 }
