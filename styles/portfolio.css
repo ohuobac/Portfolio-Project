@@ -132,3 +132,12 @@ p {
   padding-top: 120px;
   padding-bottom: 40px;
 }
+
+@media (max-width: 900px) {
+  .wrap {
+    padding-top: 70px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
