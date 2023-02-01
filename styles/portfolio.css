@@ -49,7 +49,7 @@ p {
 }
 
 .about-wrap {
-  padding-top: 50px;
+  padding-top: 100px;
   padding-bottom: 40px;
 }
 
@@ -58,11 +58,6 @@ p {
   padding-bottom: 20px;
 }
 
-.services-wrap {
-  padding-top: 50px;
-  padding-bottom: 40px;
-  margin-left: 100px;
-}
 .holder {
   background-color: var(--secondary-color);
 }
@@ -72,6 +67,7 @@ p {
 }
 .about-text {
   color: #201f1d;
+  line-height: 1.2;
 }
 .about-grid-a {
   background-color: var(--primary-color);
@@ -103,7 +99,7 @@ p {
 }
 
 .skills-grid {
-  background-color: var(--secondary-color);
+  background-color: var(--supplementary-color);
   padding-top: 60px;
 }
 
@@ -119,4 +115,20 @@ p {
 
 .media-link a {
   text-decoration: none;
+}
+
+.portfolio-screenshot {
+  padding: 30px 120px;
+  font-size: 24px;
+  line-height: 2;
+}
+
+.portfolio-screenshot-content {
+  padding-top: 160px;
+  padding-bottom: 48px;
+}
+
+.contact-wrap {
+  padding-top: 120px;
+  padding-bottom: 40px;
 }
