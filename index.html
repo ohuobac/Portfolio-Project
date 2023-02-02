@@ -73,7 +73,7 @@
             <div class="mt-3 pt-3">
               <button type="button" class="btn btn-light">
                 <a
-                  href="/about.html#portfolio"
+                  href="/portfolio.html"
                   class="text-dark"
                   title=" View My Portfolio"
                   >Portfolio</a
@@ -93,67 +93,125 @@
       </div>
     </div>
     <div class="services-holder text-light mt-0 pt-2">
-      <div class="paragraph ms-5">
+      <div class="paragraph ms-5 text-center">
         <h3>Take a look at what I've been working on!</h3>
       </div>
-      <div class="row portfolio-screenshot paragraph text-center">
-        <div class="col-6 mb-3 pb-3 d-none d-lg-block">
-          <img
-            src="/Portfolio images/weather app.png"
-            title="Weather app built with JavaScript"
-            alt="weather-app"
-            style="border-radius: 50px"
-            width="600px"
-            height="600px"
-            class="img-fluid"
-          />
+
+      <div
+        id="carouselExampleCaptions"
+        class="carousel slide"
+        data-bs-ride="false"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="3"
+            aria-label="Slide 4"
+          ></button>
         </div>
-        <div class="col-6 mt-4 pt-4">
-          My Weather app <br />
-          Bulit with HTML, CSS and JavaScript
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="Portfolio images/weather app.png"
+              class="d-block w-100"
+              alt="weather-app"
+              title="Weather app built with JavaScript"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="heading text-light text-start pt-5 mt-5">
+                Weather App
+              </h5>
+              <p class="heading text-light text-start">
+                Bulit with HTML, CSS & JavaScript
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="Portfolio images/dummy webpage.png"
+              class="d-block w-100"
+              alt="first-portfolio-website"
+              title="First Portfolio website"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="heading text-dark text-start pt-5 mt-5">
+                My First Portfolio Website
+              </h5>
+              <p class="heading text-dark text-start pb-0 mb-0">
+                Bulit with HTML & CSS
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="Portfolio images/lagos landing page.png"
+              class="d-block w-100"
+              alt="lagos-landing-page"
+              title="Lagos at a glance"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="heading text-light text-start">
+                Animated Lagos landing page
+              </h5>
+              <p class="heading text-light text-start">Bulit with HTML & CSS</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="Portfolio images/zeta image.png"
+              class="d-block w-100"
+              alt="zeta-landing-page"
+              title="My First Project"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="heading text-dark text-start">
+                My first landing page
+              </h5>
+              <p class="heading text-dark text-start">
+                Bulit with HTML, CSS & JavaScript
+              </p>
+            </div>
+          </div>
         </div>
-        <div class="col-6 mb-3 pb-3 mt-3 pt-3 d-none d-lg-block">
-          <img
-            src="/Portfolio images/dummy webpage.png"
-            title="First Portfolio website"
-            alt="first-portfolio-website"
-            style="border-radius: 50px"
-            class="img-fluid"
-            width="600px"
-          />
-        </div>
-        <div class="col-6 mt-5 portfolio-screenshot-content">
-          My first portfolio website <br />
-          Bulit with HTML & CSS
-        </div>
-        <div class="col-6 mb-3 pb-3 mt-3 pt-3 d-none d-lg-block">
-          <img
-            src="/Portfolio images/lagos landing page.png"
-            alt="lagos-landing-page"
-            class="img-fluid"
-            title="Lagos at a glance"
-            style="border-radius: 50px"
-            width="600px"
-          />
-        </div>
-        <div class="col-6 mt-5 portfolio-screenshot-content">
-          Animated Lagos landing page <br />
-          Bulit with HTML & CSS
-        </div>
-        <div class="col-6 mb-3 mt-3 d-none d-lg-block">
-          <img
-            src="/Portfolio images/zeta image.png"
-            alt="zeta-landing-page"
-            class="img-fluid"
-            style="border-radius: 50px"
-            title="My First Project"
-            width="600px"
-          />
-        </div>
-        <div class="col-6 mt-5 portfolio-screenshot-content">
-          My first landing page <br />
-          Bulit with HTML, CSS & JavaScript
-        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden text-dark">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden text-dark">Next</span>
+        </button>
       </div>
       <div
         class="row mt-2 pt-2 mb-0 pb-0 text-center footer paragraph media-link"

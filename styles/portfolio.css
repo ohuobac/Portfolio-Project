@@ -117,17 +117,6 @@ p {
   text-decoration: none;
 }
 
-.portfolio-screenshot {
-  padding: 30px 120px;
-  font-size: 24px;
-  line-height: 2;
-}
-
-.portfolio-screenshot-content {
-  padding-top: 160px;
-  padding-bottom: 48px;
-}
-
 .contact-wrap {
   padding-top: 120px;
   padding-bottom: 40px;
@@ -139,5 +128,77 @@ p {
     padding-bottom: 20px;
     padding-left: 10px;
     padding-right: 10px;
+  }
+  .about-wrap .home-img {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .paragraph {
+    font-size: 16px;
+    font-family: var(--paragraph-font-family);
+  }
+
+  .about-wrap {
+    padding-top: 60px;
+    padding-bottom: 20px;
+  }
+
+  .about-grid-a .heading {
+    text-align: center;
+    font-size: 24px;
+    margin: 0px;
+    padding: 0px;
+    line-height: 1;
+  }
+
+  .about-grid-a {
+    padding-top: 10px;
+    margin: 0px;
+  }
+  .about-img {
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .services-grid .heading {
+    text-align: center;
+  }
+
+  .services-grid h2 {
+    padding: 0px;
+    margin: 0px;
+  }
+  .services-wrap h5 {
+    font-size: 16px;
+  }
+
+  .services-wrap {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+  }
+
+  .services-holder {
+    padding-top: 20px;
+  }
+
+  .services-holder .heading,
+  .paragraph {
+    text-align: center;
+  }
+
+  .portfolio-content,
+  .portfolio-content h2 {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .contact-wrap .heading {
+    font-size: 24px;
+  }
+
+  .contact-wrap {
+    margin-top: 0px;
+    padding-top: 45px;
   }
 }
