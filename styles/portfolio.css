@@ -229,6 +229,12 @@ svg {
   .about-wrap {
     padding-top: 60px;
     padding-bottom: 20px;
+    margin-bottom: 0px;
+  }
+
+  .about-wrap button {
+    margin-top: 40px;
+    margin-bottom: 20px;
   }
 
   .about-grid-a .heading {
@@ -266,7 +272,8 @@ svg {
   }
 
   .services-holder {
-    padding-top: 20px;
+    padding: 0px;
+    margin: 0px;
   }
 
   .services-holder .heading,
