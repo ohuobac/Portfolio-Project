@@ -292,8 +292,9 @@ svg {
   }
 
   .contact-wrap {
-    margin-top: 0px;
+    margin-top: 40px;
     padding-top: 45px;
+    padding-bottom: 60px;
   }
 
   .contact-wrap .paragraph {
