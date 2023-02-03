@@ -98,6 +98,89 @@ p {
   background-color: var(--tertiary-color);
 }
 
+.skill {
+  width: 160px;
+  height: 160px;
+  position: relative;
+}
+
+.outer {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+    -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+  padding: 20px;
+}
+
+.inner {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2),
+    inset -4px -4px 6px -1px rgba(255, 255, 255, 0.7),
+    -0.5px -0.5px 0px rgba(255, 255, 255, 1),
+    0.5px 0.5px 0px rgba(0, 0, 0, 0.15), 0px 12px 10px -10px rgba(0, 0, 0, 0.05);
+}
+
+#number {
+  font-weight: 600;
+  color: #8c2828;
+}
+circle {
+  fill: none;
+  stroke: url(#GradientColor);
+  stroke-width: 20px;
+  stroke-dasharray: 472;
+  stroke-dashoffset: 472;
+  animation: anim 2s linear forwards;
+}
+.bootstrap {
+  animation: bootstrap-anim 2s linear forwards;
+}
+.javascript {
+  animation: javascript-anim 2s linear forwards;
+}
+.react {
+  animation: react-anim 2s linear forwards;
+}
+.seo {
+  animation: seo-anim 2s linear forwards;
+}
+
+svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+@keyframes anim {
+  100% {
+    stroke-dashoffset: 71;
+  }
+}
+@keyframes bootstrap-anim {
+  100% {
+    stroke-dashoffset: 94;
+  }
+}
+@keyframes javascript-anim {
+  100% {
+    stroke-dashoffset: 118;
+  }
+}
+@keyframes react-anim {
+  100% {
+    stroke-dashoffset: 142;
+  }
+}
+@keyframes seo-anim {
+  100% {
+    stroke-dashoffset: 142;
+  }
+}
 .skills-grid {
   background-color: var(--supplementary-color);
   padding-top: 60px;
@@ -106,6 +189,10 @@ p {
 .services-holder {
   background-color: var(--tertiary-color);
   padding-top: 60px;
+}
+
+.services-holder .paragraph {
+  font-size: 24px;
 }
 
 .portfolio-holder {
