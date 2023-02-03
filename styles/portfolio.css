@@ -118,8 +118,8 @@ p {
 }
 
 .contact-wrap {
-  padding-top: 120px;
-  padding-bottom: 40px;
+  padding-top: 100px;
+  padding-bottom: 82px;
 }
 
 @media (max-width: 900px) {
@@ -200,5 +200,9 @@ p {
   .contact-wrap {
     margin-top: 0px;
     padding-top: 45px;
+  }
+
+  .contact-wrap .paragraph {
+    text-align: center;
   }
 }
